@@ -1,0 +1,17 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+// Include this if you're using Visual Studio
+//#include "stdafx.h"
+
+#include <iostream>
+using namespace std;
+
+
+int _tmain(int arg, _TCHAR* argv[])
+{
+	cout << "Hello world!\n";
+	cout << "You can end a string with \n";
+	cout << "Or you can end them like this" << endl;
+    return 0;
+}
