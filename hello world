@@ -1,0 +1,15 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+// Include next line if on Visual Studio
+// #include "stdafx.h"
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	cout << "Hello world!";
+    return 0;
+}
