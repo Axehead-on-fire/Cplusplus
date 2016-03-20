@@ -1,0 +1,18 @@
+// Cube.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double x;
+
+	cout << "Enter a number to be cubed: ";
+	cin >> x;
+
+	cout << "If we cube " << x << " we get " << x * x * x << endl << endl;
+    return 0;
+}
