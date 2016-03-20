@@ -1,0 +1,19 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+// Include this if you're using Visual Studio
+//#include "stdafx.h"
+
+#include <iostream>
+using namespace std;
+
+
+int _tmain(int arg, _TCHAR* argv[]) // change to int main() if not using VS
+{
+	cout << "Hello world!\n";
+	cout << "You can end a string with '\\n'\n";
+	cout << "Or you can end them with 'endl'" << endl;
+	cout << "You can " << "space strings " << "like this\n";
+	cout << "But don't forget " << endl << "your spaces.\n";
+  return 0;
+}
