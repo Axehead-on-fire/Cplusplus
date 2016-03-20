@@ -1,0 +1,19 @@
+// ConvertFtoC.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double ftemp;
+
+	cout << "Enter a fahrenheit temperature: ";
+	cin >> ftemp;
+
+	cout << "Temperature in Celsius is: " << (ftemp - 32) / 1.8 << endl << endl;
+  return 0;
+}
+
