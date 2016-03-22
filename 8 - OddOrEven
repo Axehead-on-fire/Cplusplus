@@ -1,0 +1,37 @@
+// This is for Visual Studio
+#include "stdafx.h"
+
+// Standard in (all?) C++, and allows std:: to be truncated from keywords
+#include <iostream>
+using namespace std;
+
+// Standard in (all?) C++ 
+int main()
+{
+// Initialize variable
+	int n = 0;
+
+// Prints to console
+	cout << "Enter a number: ";
+	
+// Allows user input and assigns to the var n
+	cin >> n;
+
+// First condition, asks if n modulo 2 is equal to 0
+	if (n % 2 == 0) {
+	
+// If it is, print var and the string ' is even'
+		cout << n << " is even.\n\n";
+	}
+	
+// Second condition, skipped if first condition evaluates to true
+	else {
+
+// If first condition is false, print var and the string ' is odd'
+		cout << n << " is odd.\n\n";
+	}
+	
+// Return nothing
+    return 0;
+}
+
