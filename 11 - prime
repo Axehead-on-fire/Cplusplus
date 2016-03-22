@@ -1,0 +1,30 @@
+#include "stdafx.h"
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+int main() {
+	int n = 0, i = 2;
+	bool is_prime = true;
+
+	cout << " Enter a number: ";
+	cin >> n;
+
+	double rootn = sqrt(n);
+
+	while (i <= rootn) {
+		if (n % i == 0) {
+			is_prime = false;
+			break;
+		}
+		++i;
+	}
+
+	if (is_prime) {
+		cout << "Number is prime.\n";
+	} else {
+		cout << "Number is not prime.\n\n";
+	}
+    return 0;
+}
