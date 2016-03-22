@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int num = 0;
+
+	cout << "Input a number: ";
+	cin >> num;
+
+	if (0 <= num <= 100)
+	{
+		cout << num << " is in 0 - 100.\n\n";
+	}
+    return 0;
+}
